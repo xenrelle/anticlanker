@@ -1,0 +1,9 @@
+a:has(.cdxCopilotIcon), /* copilot button at homepage */
+li[id="codex"], /* copilot tab item */
+a.b_phead_chat_link, /* copilot button next to search bar */
+li#b-scopeListItem-copilotsearch, /* remove copilot search tab item */
+li#b-scopeListItem-conv, /* remove copilot chat tab item */
+.b_ans:has(#copans_container .copans_ttl .icon), /* remove giant copilot answer at top */
+.b_ans:has(.gs_caphead) /* remove ai generated answer */ {
+	display: none !important;
+}
