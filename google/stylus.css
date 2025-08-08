@@ -1,0 +1,7 @@
+.ULSxyf:has(.hdzaWe), /* AI overview in the middle */
+.M8OgIe > div:last-of-type:has(.hdzaWe), /* AI overview near the top */
+div[role="listitem"][jsname="xBNgKe"], /* AI Mode button */
+.bCOlv:has([role="heading"]), /* AI overview in 'People Also Ask' */
+.plR5qb /* AI Mode button in homepage */ {
+	display: none !important;
+}
